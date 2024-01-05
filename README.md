@@ -541,7 +541,6 @@ In this example:
 - P1 has allocated R1 and is requesting R2.
 - P2 has allocated R2 and is requesting R3.
 - P3 has allocated R3 and is requesting R1.
-
 This graph has a cycle (P1 -> R1 -> P3 -> R3 -> P1), indicating a potential deadlock. If each process holds its allocated resource and waits for the next resource, a circular wait situation arises.
 ---
 ### Deadlock Handling:
